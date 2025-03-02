@@ -16,12 +16,12 @@ ENDCLASS.
 
 
 CLASS zcl_lab_34_student_3336 IMPLEMENTATION.
-  METHOD get_name.
-    ev_name = me->name.
-  ENDMETHOD.
-
   METHOD set_name.
     me->name = iv_name.
+  ENDMETHOD.
+
+  METHOD get_name.
+    ev_name = me->name.
   ENDMETHOD.
 
 ENDCLASS.

@@ -1,0 +1,18 @@
+CLASS zcl_lab_39_budget_3336 DEFINITION ABSTRACT
+  PUBLIC
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    CLASS-METHODS: get_budget RETURNING VALUE(rv_datos) TYPE string.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_lab_39_budget_3336 IMPLEMENTATION.
+  METHOD get_budget.
+    rv_datos = 'Lorena'.
+  ENDMETHOD.
+
+ENDCLASS.
